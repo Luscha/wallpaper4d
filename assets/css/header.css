@@ -1,0 +1,25 @@
+
+.mdl-layout__drawer-button {
+  .mdl-layout__drawer-button;
+  height: 26px;
+  width: 26px;
+  margin: 6px 12px;
+  line-height: 30px;
+
+  -webkit-app-region: no-drag;
+}
+
+.titlebar {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+.wnd-button {
+  height: 18px;
+  min-width: 26px;
+  line-height: 20px;
+  padding: 0 0px;
+  margin: -2px;
+
+  -webkit-app-region: no-drag;
+}

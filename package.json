@@ -1,0 +1,26 @@
+{
+  "name": "wallpaper4d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Luscha@bitbucket.org/Luscha/wallpaper4d.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Luscha/wallpaper4d#readme",
+  "dependencies": {
+    "ajax-request": "^1.2.1",
+    "electron-window": "^0.8.1",
+    "jquery": "^3.1.0",
+    "material-design-icons": "3.0.1",
+    "material-design-lite": "^1.2.0",
+    "mdi": "^1.7.22",
+    "roboto-fontface": "^0.6.0"
+  }
+}

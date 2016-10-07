@@ -1,0 +1,54 @@
+.wallpaper {
+  width: auto;
+  height: auto;
+  
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  
+  margin: auto;
+  vertical-align: middle;
+  position: absolute;
+  
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  z-index: 2;
+}
+
+.wallpaper-blur {
+	width: 100%;
+	height: 100%;
+
+	display: block;
+	position: absolute;
+
+	/*background-image: url(http://www.planwallpaper.com/static/images/which-anime-character-are-you-quiz.jpg);*/
+	background-size: 100% 100%;
+
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+	
+	z-index: 1;
+	
+	left: -10px;
+	top: -10px;
+	
+	margin: -5px;
+	padding: 15px;
+}
+
+.wallpaper-container {
+	width: 100%;
+	height: 100%;
+	
+	max-width: 100%;
+	max-height: 100%;
+	
+	overflow: hidden;
+
+	display: block;
+	position: absolute;
+}

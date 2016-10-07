@@ -1,0 +1,22 @@
+.login-card.mdl-card {
+	width: 512px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	
+	background: url('../images/login_register.jpg') center / cover;
+}
+.login-card > .mdl-card__title {
+	color: #fff;
+	height: 128px;
+	
+}
+.login-card > .mdl-card__supporting-text {
+	background: rgba(255, 255, 255, 0.9);
+	width: 100%;
+}
+.login-card > .mdl-card__actions {
+	background: rgba(255, 255, 255, 0.9);
+	padding: 16px;
+}
