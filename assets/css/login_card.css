@@ -4,19 +4,30 @@
 	top: 50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
-	
-	background: url('../images/login_register.jpg') center / cover;
+
+	background-position: center;
+  background-size: cover;
+
+	/*background: url('../images/login_register.jpg') center / cover;*/
+}
+.login-card > .mdl-card__title-text {
+  font-size: 18px;
 }
 .login-card > .mdl-card__title {
-	color: #fff;
+	/*color: #fff;*/
 	height: 128px;
-	
+
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(254, 254, 254, 0.1));
+
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% 45%;
 }
 .login-card > .mdl-card__supporting-text {
-	background: rgba(255, 255, 255, 0.9);
+	background: rgba(255, 255, 255, 0.8);
 	width: 100%;
 }
 .login-card > .mdl-card__actions {
-	background: rgba(255, 255, 255, 0.9);
+	background: rgba(255, 255, 255, 0.8);
 	padding: 16px;
 }
